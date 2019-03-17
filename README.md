@@ -1,3 +1,24 @@
+# Installation instructions
+
+- This application needs java 8
+- `Javax` packages have been depreciated from Java 9 and finally removed in Java 11.
+- To Build instruction:
+    - 
+    ```
+    git clone https://github.com/keycloak/keycloak.git
+    cd keycloak
+    ```
+    - If you do not have `maven` (optional): 
+        - 
+        ```
+        brew update 
+        brew install maven
+        mv -version
+        ```
+    - Build without test cases `mvn install -DskipTests`
+
+
+
 # Keycloak
 
 Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services.

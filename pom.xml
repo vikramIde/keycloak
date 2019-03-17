@@ -225,6 +225,7 @@
 
     <dependencyManagement>
         <dependencies>
+            
             <dependency>
                 <groupId>org.jboss</groupId>
                 <artifactId>jboss-dmr</artifactId>
@@ -1386,6 +1387,8 @@
                 <version>${project.version}</version>
                 <type>zip</type>
             </dependency>
+
+
             <dependency>
                 <groupId>org.keycloak</groupId>
                 <artifactId>keycloak-saml-jetty81-adapter-dist</artifactId>
@@ -1449,6 +1452,7 @@
                 <version>${project.version}</version>
                 <classifier>classes</classifier>
             </dependency>
+
 
             <dependency>
                 <groupId>org.keycloak.example.demo</groupId>
